@@ -1,12 +1,70 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #87f1f5;
+@font-face {
+ 	font-family: Tanha;
+ 	src: url(Tanha.ttf);
 }
 
-li {
-  display: inline;
-  padding-left: : 10px;
+body {
+	background-image: url(background.jpg);
+	font-family: Tanha;
+}
 
+ul.nav {
+ 	list-style-type: none;
+ 	margin: 0;
+	padding-right: 5px;
+	padding-left: 5px;
+ 	background-color: #d9d98b;
+	border-radius: 5px;
+}
+
+li.nav {
+	font-size: 24pt;
+	background-color: #d9d98b;
+ 	display: inline;
+ 	margin-left: 20px;
+}
+
+li.nav:hover {
+	background-color: #adad6f;
+ 	display: inline;
+ 	padding-left: : 10px;
+}
+
+a.nav {
+	text-decoration: none;
+	color: #ffffff;
+}
+div.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	background-color: #606d6e;
+	text-align: center;
+}
+
+ul.footer {
+ 	list-style-type: none;
+ 	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+li.footer {
+	font-size: 14pt;
+ 	display: inline;
+ 	margin-left: 20px;
+	margin-right: 20px;
+}
+
+li.footer:hover {
+	background-color: #3e4445;
+ 	display: inline;
+}
+
+a.footer {
+	text-decoration: none;
+	color: #ffffff;
 }
