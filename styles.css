@@ -68,3 +68,25 @@ a.footer {
 	text-decoration: none;
 	color: #ffffff;
 }
+
+
+div.text {
+	margin: 10px 10px 10px 10px;
+	background: rgba(235, 205, 9, 0.5);
+	border-radius: 10px;
+	text-align: center;
+}
+p.text {
+	font-size: 18pt;
+	margin: 0;
+}
+
+ul.text {
+	font-size: 18pt;
+	text-align: right;
+}
+
+form.contact {
+	text-align: right;
+	padding: 10px 10px 10px 10px;
+}
